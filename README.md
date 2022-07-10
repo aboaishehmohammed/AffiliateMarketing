@@ -4,7 +4,7 @@
    ` composer install`  <br> <br>
 3. Install NPM `npm install`  and run npm run dev<br> <br>
 4. Edit `.env` file with your database configuration .  <br> <br>
-'php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"'
+run `php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"`
 5. run migration command <br>
     `php artisan migrate --seed`
    * This will create :
