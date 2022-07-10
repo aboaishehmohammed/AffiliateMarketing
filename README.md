@@ -12,5 +12,5 @@
         - Email : `admin@admin.com`
         - Password : `admin1998`  <br> <br>
 6. `php artisan key:generate`  <br> <br>
-7. php artisan storage:link <br>
+7.` php artisan storage:link` <br>
 8. `php artisan serve`
