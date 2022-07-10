@@ -13,7 +13,7 @@ class UserController extends Controller
             ->with(['referralUsers', 'user'])
             ->get();
 
-        return view('wallet.referrals', compact('users'));
+        return view('user.referrals', compact('users'));
     }
 
     public function chartsData()

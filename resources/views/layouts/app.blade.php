@@ -58,7 +58,7 @@
                                 </a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="{{route('wallet.chart')}}">
+                                <a class="nav-link" href="{{route('user.chart')}}">
                                     {{__('Daily Charts')}}
                                 </a>
                             </li>

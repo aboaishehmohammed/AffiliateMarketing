@@ -25,7 +25,7 @@ Route::get('/logout' , [AuthController::class , 'logout'])->name('logout');
 Route::group(['middleware' => 'auth'] , function (){
     Route::view('transactions','transactions.create')->name('transactions.create');
     Route::get('wallet' , [WalletController::class , 'show'])->name('wallet.show');
-    Route::get('wallet/chart' , [WalletController::class , 'chart'])->name('wallet.chart');
+    Route::get('chart' , [WalletController::class , 'chart'])->name('user.chart');
     Route::get('referrals' , [UserController::class , 'referrals'])->name('user.referrals');
 });
 

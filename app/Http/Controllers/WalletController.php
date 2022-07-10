@@ -31,7 +31,7 @@ class WalletController extends Controller
     public function chart()
     {
        $token= auth()->user()->createToken('auth_token')->plainTextToken;
-        return view('wallet.chart',compact('token'));
+        return view('user.chart',compact('token'));
     }
 
 
